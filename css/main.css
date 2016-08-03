@@ -1,0 +1,193 @@
+body {
+	background-color: #AEAEAE;
+	margin: 0;
+}
+
+/*site wide wrapper*/
+.wrapper {
+	width: 80%;
+	margin-left: 10%;
+}
+
+/*header*/
+header {
+	background-color: #E7E5E6;
+	height: 140px;
+}
+
+header .logo {
+	background-color:#AEAEAE;
+	width: 235px;
+	position: relative;
+	top: 25px;
+	left: 35px;
+	font-size: 48px;
+	padding: 15px 10px 15px 45px;
+	text-transform: uppercase;
+}
+
+/*navigation*/
+nav {
+	background-color: #A5A3A4;
+}
+
+nav ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 15px 25px;	
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*sections*/
+section {
+	width: 100%;
+}
+
+/*main div*/
+.main {
+	background-color: #F3EFF0;
+	width: 70%;
+	float: left;
+	height: 465px;
+}
+
+.main h1 {
+	padding-left: 35px;
+}
+
+.main p {
+	padding: 5px 35px;
+}
+
+/*sidebar div*/
+.sidebar {
+	background-color: #CECCCD;
+	width: 30%;
+	float: right;
+	height: 465px;
+}
+
+.sidebar h2 {
+	padding-left: 20px;
+}
+
+/*footer*/
+footer {
+	clear: both;
+	background-color: #514F50;
+	font-size: 14px;
+	padding: 9px 0;	
+}
+
+footer p {
+	margin: 0;
+	color: white;
+	padding-left: 35px
+}
+
+/*Media Queries*/
+
+@media(max-width:1070px) {
+	.main p {
+		font-size: 14px;
+	}
+}
+
+@media(max-width:1030px) {
+	.main p {
+		font-size: 14px;
+	}
+}
+
+@media(max-width:880px) {
+	.main {
+		font-size:14px;
+	}
+	.sidebar {
+		font-size:14px;
+	}
+}
+
+@media(max-width:820px) {
+	.main p {
+		font-size: 12px;
+	}
+}
+
+@media(max-width:705px) {
+	nav {
+		font-size: 10px;
+	}
+	.main {
+		height: 500px;
+	}
+}
+
+@media(max-width:645px) {
+	.main {
+		height:550px;
+	}
+}
+
+@media(max-width:590px) {
+	nav li {
+		padding:10px 15px;
+	}
+	.main {
+		height: 600px;
+	}
+}
+
+@media(max-width:535px) {
+	.main {
+		height: 650px;
+	}
+}
+
+@media(max-width:490px) {
+	.main {
+		height: 700px;
+	}
+}
+
+@media(max-width:470px) {
+	.main {
+		height: 750px;
+	}
+	header .logo {
+		width: 185px;
+	}
+}
+
+@media(max-width:450px) {
+	.main {
+		height: 800px;
+	}
+}
+
+@media(max-width:440px) {
+	nav li {
+		padding:10px 12px;
+	}
+}
+
+@media(max-width:425px) {
+	h1 {
+		font-size:18px;
+	}
+	h2 {
+		font-size:18px;
+	}
+	.main {
+		height: 850px;
+	}
+}
